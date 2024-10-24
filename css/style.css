@@ -166,13 +166,10 @@ nav ul li a:hover {
 /* about */
 #about {
     display: flex;
-    width: 100%;
     height: 90vh;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
     padding-top: 4rem;
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
 }
 /* left about content */
 .left-a {
@@ -279,7 +276,6 @@ nav ul li a:hover {
 /* content about right */
 .right-a {
     color: var(--container-bg);
-    width: 55%;
     align-items: center;
     display: flex;
 }
