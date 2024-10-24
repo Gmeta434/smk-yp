@@ -17,7 +17,7 @@
 body {
     background-color: var(--bg-cl);
     height: 100rem;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 nav {
@@ -372,4 +372,79 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+/* fasilitas */
+#facility {
+    width: 100%;
+    height: 100vh;
+}
 
+/* .box-major {
+    
+} */
+
+/* box layer 1 */
+.box-first {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#facility .box-first .box {
+    width: 23rem;
+    height: 13rem;
+    padding: 2rem;
+    background-color: var(--container-bg);
+    border-radius: 25px;
+    display: flex;
+}
+
+.box-first .box .content-box-one {
+    color: white;
+    justify-content: center;
+}
+.box-first .box .content-box-two {
+    color: white;
+    justify-content: center;
+}
+
+.box-first .box .content-box-one h3{
+    font-size: 30px;
+}
+
+.box-first .box .content-box-two h3{
+    font-size: 30px;
+}
+
+/* box layer 2 */
+.box-second {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#facility .box-second .box {
+    width: 23rem;
+    height: 13rem;
+    padding: 2rem;
+    background-color: var(--container-bg);
+    border-radius: 25px;
+    display: flex;
+}
+
+.box-second .box .content-box-one {
+    color: white;
+    justify-content: center;
+}
+.box-second .box .content-box-two {
+    color: white;
+    justify-content: center;
+}
+
+.box-second .box .content-box-one h3{
+    font-size: 30px;
+}
+
+.box-second .box .content-box-two h3{
+    font-size: 30px;
+}
