@@ -159,3 +159,88 @@ nav ul li a:hover {
 }
 
 
+.about {
+    display: flex;
+}
+
+.left-a {
+    width: 60%;
+    background-color: #d11919;
+}
+
+
+.about {
+    display: flex;
+}
+
+/* left about content */
+
+
+
+
+/* content about right */
+.right-a {
+    color: var(--container-bg);
+    width: 40%;
+    padding:100px;
+    display: flex;
+}
+
+.content-left {
+    padding: 20px;
+}
+
+.content-left .satu-l {
+    padding: 25px;
+    background-color: #8c8c8c;
+    border-radius: 20px;
+}
+
+.content-left .satu-l img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.content-left .dua-l {
+    padding: 25px;
+    background-color: #8c8c8c;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.content-left .dua-l img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.content-right .satu-r {
+    padding: 25px;
+    background-color: #8c8c8c;
+    border-radius: 20px;
+}
+
+.content-right .satu-r img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.content-right .dua-r {
+    padding: 25px;
+    background-color: #8c8c8c;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.content-right .dua-r img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+
