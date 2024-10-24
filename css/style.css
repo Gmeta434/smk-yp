@@ -375,12 +375,18 @@ nav ul li a:hover {
 /* fasilitas */
 #facility {
     width: 100%;
+    padding-top: 5rem;
     height: 100vh;
 }
 
-/* .box-major {
-    
-} */
+#facility > a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    text-decoration: underline 0.3rem;
+    font-size: 3rem;
+    color: var(--color-f);
+}
 
 /* box layer 1 */
 .box-first {
@@ -395,24 +401,52 @@ nav ul li a:hover {
     padding: 2rem;
     background-color: var(--container-bg);
     border-radius: 25px;
+    flex-direction: column;
+    overflow: hidden;
     display: flex;
+    cursor: pointer;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+}
+
+#facility .box-first .box .f-1 {
+    /* overflow: hidden; */
+    position: relative;
+    width: 12rem;
+    top: -0.8rem;
+    right: -13rem;
+    z-index: 3;
+}
+
+#facility .box-first .box .f-2 {
+    position: relative;
+    width: 20rem;
+    top: 1rem;
+    right: -6rem;
+    z-index: 3;
 }
 
 .box-first .box .content-box-one {
-    color: white;
+    color: var(--color-f);
     justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
 .box-first .box .content-box-two {
-    color: white;
+    color: var(--color-f);
     justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .box-first .box .content-box-one h3{
     font-size: 30px;
+    font-family: "Istok Web", sans-serif;
 }
 
 .box-first .box .content-box-two h3{
     font-size: 30px;
+    font-family: "Istok Web", sans-serif;
 }
 
 /* box layer 2 */
@@ -429,22 +463,49 @@ nav ul li a:hover {
     padding: 2rem;
     background-color: var(--container-bg);
     border-radius: 25px;
+    flex-direction: column;
+    overflow: hidden;
     display: flex;
+    cursor: pointer;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+}
+
+#facility .box-second .box .f-3 {
+    position: relative;
+    width: 15rem;
+    top: -0.5rem;
+    right: -11rem;
+    z-index: 3;
+}
+
+#facility .box-second .box .f-4 {
+    position: relative;
+    width: 15rem;
+    top: -0.5rem;
+    right: -10rem;
+    z-index: 3;
 }
 
 .box-second .box .content-box-one {
-    color: white;
+    color: var(--color-f);
     justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
 .box-second .box .content-box-two {
-    color: white;
+    color: var(--color-f);
     justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .box-second .box .content-box-one h3{
     font-size: 30px;
+    font-family: "Istok Web", sans-serif;
 }
 
 .box-second .box .content-box-two h3{
     font-size: 30px;
+    font-family: "Istok Web", sans-serif;
 }
