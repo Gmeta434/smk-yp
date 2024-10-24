@@ -1,2 +1,4 @@
-font-family: "Istok Web", serif;
-  font-family: "Roboto", serif;
+font-family: "Istok Web", sans-serif;
+  font-family: "Roboto", sans-serif;
+
+  border: 1px solid rgba(255, 255, 255, 0.829);
