@@ -1,370 +1,60 @@
-<html>
- <head>
-  <title>
-   hai
-  </title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
-  <style>
-   body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #1a1a1a;
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-        .navbar {
-            display: flex;
-            justify-content: center;
-            padding: 20px;
-            background-color: #1a1a1a;
-            width: 100%;
-        }
-        .navbar a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 18px;
-        }
-        .kotak1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            background-color: #2a2a2a;
-            border-radius: 20px;
-            margin: 20px;
-            width: 90%;
-            max-width: 1200px;
-            height: 20%;
-        }
-        .kotak1 img {
-            border-radius: 20px;
-            width: 40%;
-            height: auto;
-        }
-        .kotak1-content {
-            margin-left: 30px;
-            width: 50%;
-        }
-        .kotak1-content h1 {
-            font-size: 36px;
-            margin: 0;
-        }
-        .kotak1-content p {
-            font-size: 16px;
-            margin: 20px 0;
-        }
-        .kotak1-content .buttons {
-            display: flex;
-            gap: 20px;
-        }
-        .kotak1-content .buttons a {
-            padding: 10px 20px;
-            border-radius: 20px;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        .kotak1-content .buttons .learn-more {
-            background-color: #ff4b5c;
-            color: #ffffff;
-        }
-        .kotak1-content .buttons .daftar-guru {
-            background-color: transparent;
-            color: #ffffff;
-            border: 1px solid #ffffff;
-        }
-        .partner {
-            display: flex;
-            justify-content: center;
-            padding: 20px;
-            gap: 40px;
-            width: 100%;
-        }
-        .partner img {
-            filter: grayscale(100%);
-            height: 30px;
-        }
-        .container {
-            max-width: 1366px;
-            width: 100%;
-            padding: 20px;
-        }
-        .heading {
-            font-size: 2rem;
-            font-weight: bold;
-        }
-        .subheading {
-            font-size: 1rem;
-            margin-top: 20px;
-            margin-bottom: 30px;
-        }
-        .btn-custom {
-            background-color: transparent;
-            border: 1px solid #ff4d4d;
-            color: #ff4d4d;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-transform: uppercase;
-        }
-        .btn-custom:hover {
-            background-color: #ff4d4d;
-            color: #ffffff;
-        }
-        .boxnya-custom {
-            background-color: #2c2c2c;
-            border: none;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            color: #ffffff;
-            height: 160px;
-        }
-        .boxnya-custom i {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-        .boxnya-custom h5 {
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-        .boxnya-custom p {
-            font-size: 0.9rem;
-        }
-        .col-md-4 {
-          margin-left: 85px;
-        }
-        .main-heading {
-            font-size: 24px;
-            margin-bottom: 30px;
-        }
-        .itadori {
-            background-color: #2a2a2a;
-            border: none;
-            border-radius: 15px;
-            margin-bottom: 20px;
-            height: 200px;
-        }
-        .itadori img {
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
-        .itadori-title {
-            font-size: 18px;
-            font-weight: bold;
-            transform: translateY(50px);
-        }
-        .itadori-text {
-            font-size: 14px;
-            color: #b0b0b0;
-            transform: translateY(50px);
-        }
-        .btn-custom {
-            background-color: #ff4a57;
-            color: #ffffff;
-            border-radius: 20px;
-            padding: 5px 20px;
-            font-size: 14px;
-            border: none;
-            transform: translateY(50px);
-        }
-        .btn-custom:hover {
-            background-color: #ff2a37;
-        }
-        .kosong {
-            background-color: #1a1a1a;
-            color: #ffffff;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        .col-md-3 {
-          margin-left: 510px;
-          transform: translateY(-100px);
-        }
-        .pach {
-          transform: translateY(80px);
-        }
-        .row {
-          transform: translateX(70px);
-        }
-  </style>
- </head>
- <body>
-  <div class="navbar">
-   <a href="#">
-    Tentang
-   </a>
-   <a href="#">
-    Jadwal
-   </a>
-   <a href="#">
-    Berita
-   </a>
-   <a href="#">
-    Kontak
-   </a>
-  </div>
-  <div class="kotak1">
-   <img alt="gambarawal" height="300" src="#" width="300"/>
-   <div class="kotak1-content">
-    <h1>
-     SMK YP.17 BARADATU
-    </h1>
-    <p>
-     Deskripsi sekolah blablabla
-    </p>
-    <div class="buttons">
-     <a class="learn-more" href="#">
-      Learn More
-     </a>
-     <a class="daftar-guru" href="#">
-      Daftar guru
-     </a>
-    </div>
-   </div>
-  </div>
-    <marquee direction="left">
-      <div class="partner">
-       <img alt="logopn1" height="30" src="#" width="100"/>
-       <img alt="logopn2" height="30" src="#" width="100"/>
-       <img alt="logopn3" height="30" src="#" width="100"/>
-       <img alt="logopn4" height="30" src="#" width="100"/>
-       <img alt="logopn5" height="30" src="#" width="100"/>
-      </div>
-    </marquee>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="pach">
-                    <div class="heading">Nanonano Milky</div>
-                    <div class="subheading">entah bagusnya di isi apa</div>
-                    <button class="btn btn-custom">Info Lebih Lanjut</button>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/smk-yp/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Smk-YP-17</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- home -->
+    <div id="home">
+        <div class="container-h">
+            <div class="left">
+                <img src="/smk-yp/asset/bangunan.png" >
             </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-6 bah">
-                        <div style="transform: translateX(600px);" class="boxnya boxnya-custom text-center">
-                            <img></img>
-                            <h5>Judul</h5>
-                            <p>Desk</p>
-                        </div>
-                    </div>
-                    <div style="transform: translateY(20px);" class="col-md-6 beh">
-                        <div style="transform: translateX(600px);" class="boxnya boxnya-custom text-center">
-                            <img></img>
-                            <h5>Judul</h5>
-                            <p>Desk</p>
-                        </div>
-                    </div>
-                    <div style="transform: translateY(-5px)" class="col-md-6 bah">
-                        <div style="transform: translateX(600px);" class="boxnya boxnya-custom text-center">
-                            <img></img>
-                            <h5>Judul</h5>
-                            <p>Desk</p>
-                        </div>
-                    </div>
-                    <div style="transform: translateY(15px);" class="col-md-6 beh">
-                        <div style="transform: translateX(600px);" class="boxnya boxnya-custom text-center">
-                            <h5>Judul</h5>
-                            <p>Desk</p>
-                        </div>
-                    </div>
+            <div class="right">
+                <div class="title-h">
+                    Advance the nation's generation with Yayasan 17
+                </div>
+                <div class="sub-h">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ipsam, eligendi sed ea provident inventore nostrum aliquam laboriosam illo. Architecto perspiciatis reiciendis, quae laboriosam voluptate ea perferendis voluptas aliquam quia libero cupiditate ab explicabo distinctio modi impedit dolore illo eligendi vel eaque accusantium qui soluta excepturi. Eos illum minima nam.
+                </div>
+                <div class="button-h">
+                    <button class="btn-1"><a href="#">More info</a></button>
+                    <button class="btn-1"><a href="#">Facility</a></button>
                 </div>
             </div>
         </div>
     </div>
-  <div class="kosong">
-   <h1 class="main-heading">
-    blablabla
-   </h1>
-   <div class="row">
-    <div class="col-md-12">
-     <div class="itadori">
-      <div class="row g-0">
-       <div class="col-md-8">
-        <div class="itadori-body">
-         <h5 class="itadori-title">
-          icikiwir
-         </h5>
-         <p class="itadori-text">
-          Lorem Ipsum kjajsojasoja
-         </p>
-         <a class="btn btn-custom" href="#">
-          Explore
-         </a>
-        </div>
-       </div>
-       <div class="col-md-3">
-        <img alt="sukuna" class="img-digidaw" height="200" src="#" width="300"/>
-       </div>
-      </div>
-     </div>
+
+    <!-- partner -->
+    <div class="part">
+        <img src="/smk-yp/asset/mikrotik.png" >
+        <img src="/smk-yp/asset/PLN.png" >
+        <img src="/smk-yp/asset/Telkom.png" >
+        <img src="/smk-yp/asset/TVG.png">
+        <img src="/smk-yp/asset/smk_bisa-removebg-preview.png">
     </div>
-    <div class="col-md-6">
-     <div class="itadori">
-      <div class="itadori-body">
-       <h5 class="itadori-title">
-        Icikiwir
-       </h5>
-       <p class="itadori-text">
-        Lorem Ipsum Jaibxaojaojxak
-       </p>
-       <a class="btn btn-custom" href="#">
-        Learn More
-       </a>
-      </div>
-     </div>
+
+    <!-- about -->
+    <div id="about">
+        
     </div>
-    <div class="col-md-6">
-     <div class="itadori">
-      <div class="itadori-body">
-       <h5 class="itadori-title">
-        Icikiwie
-       </h5>
-       <p class="itadori-text">
-        Lorem Ipsum bakdhiahabdoaj
-       </p>
-       <a class="btn btn-custom" href="#">
-        Learn More
-       </a>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </body>
-  <script>
-    anime({
-      targets: '.boxnya-custom',
-      translateX: -70,
-      duration: 1000,
-      easing: 'easeInOutQuad'
-    });
-    anime({
-      targets: '.gambarawal',
-      duration: 1000,
-      easing: 'easeInOutQuad'
-    });
-    anime({
-      targets: '.beh',
-      translateX: -10,
-      duration: 1000,
-      easing: 'easeInOutQuad'
-    })
-    anime({
-      targets: '.bah',
-      translateX: 0,
-      duration: 1000,
-      easing: 'easeInOutQuad'
-    })
-  </script>
+
+
+
+    <script src="/smk-yp/js/index.js"></script>
+</body>
 </html>
