@@ -300,6 +300,7 @@ nav ul li a:hover {
     color: var(--color-f);
     width: 13rem;
     height: 11rem;
+    cursor: pointer;
 }
 
 .content-left .satu-l img {
@@ -320,6 +321,7 @@ nav ul li a:hover {
     color: var(--color-f);
     width: 13rem;
     height: 11rem;
+    cursor: pointer;
 }
 
 .content-left .dua-l img {
@@ -340,6 +342,7 @@ nav ul li a:hover {
     color: var(--color-f);
     width: 13rem;
     height: 11rem;
+    cursor: pointer;
 }
 
 .content-right .satu-r img {
@@ -360,6 +363,7 @@ nav ul li a:hover {
     border-radius: 20px;
     margin-top: 20px;
     color: var(--color-f);
+    cursor: pointer;
 }
 
 .content-right .dua-r img {
@@ -367,7 +371,5 @@ nav ul li a:hover {
     height: 50px;
     margin-bottom: 10px;
 }
-
-
 
 
