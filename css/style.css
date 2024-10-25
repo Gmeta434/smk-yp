@@ -125,17 +125,30 @@ nav ul li a:hover {
     width: 10rem;
     height: 3rem;
     border-radius: 30px;
-    border: none;
+    border: 1px solid var(--button-bg);
     margin-right: 2rem;
-    background-color: var(--button-bg);
+    background-color: var(--container-bg);
 }
 
 #home .container-h .right .button-h .btn-1 a {
-    color: var(--color-f);
+    color: var(--button-bg);
     text-decoration: none;
     font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
 }
+
+/* hover tombol depan */
+#home .container-h .right .button-h .btn-1:hover {
+    border: 1px solid var(--color-f);
+    background-color: var(--button-bg);
+    transition: ease-in-out 0.3s;
+}
+
+#home .container-h .right .button-h .btn-1 a:hover{
+    color: var(--color-f);
+}
+/* end */
+
 
 /* partner */
 .part {
@@ -424,6 +437,10 @@ nav ul li a:hover {
     z-index: 3;
 }
 
+#facility a {
+    text-decoration: none;
+}
+
 .box-first .box .content-box-one {
     color: var(--color-f);
     justify-content: center;
@@ -520,6 +537,7 @@ nav ul li a:hover {
     text-decoration: underline 0.3rem;
     font-size: 3rem;
     color: var(--color-f);
+    text-decoration: none;
 }
 
 .card-container {
